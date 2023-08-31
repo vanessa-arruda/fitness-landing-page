@@ -8,16 +8,18 @@
 
 .top-header {
     background-color: #1F2937;
-    padding: 20px;
+    padding: 30px;
     color: #fff;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
-    font-size: 42px;
+    font-size: 48px;
     font-family: 'Julius Sans One';
+    text-decoration: overline;
 }
+
 a {
     text-decoration: none;
     color: #fff;
@@ -37,19 +39,19 @@ a {
 #login {
     background-color: #eee;
     color:#1F2937;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 8px 20px;
     font-weight: bold;
     border-style: none;
 }
 
-/*middle section*/
-.middle-section-container {
+/*under header section*/
+.under-header-section-container {
     background-color: #1F2937;
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 30px 30px 30px;
     padding-bottom: 60px;
 
 }
@@ -67,8 +69,8 @@ a {
     width: 45%;
     justify-content: space-around;
     flex-direction: column;
-    gap: 15px;
-    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .main-text {
@@ -79,9 +81,10 @@ a {
     background-color: #eee;
     color: #d31212;
     font-weight: bold;
-    border-style: none;
-    width: 100px;
-    padding: 10px 15px;
-    border-radius: 10%;
+    border: 1px solid #ffff;
+    width: 150px;
+    padding: 10px;
     font-size: 18px;
+    border-radius: 10px;
 }
+
