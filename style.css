@@ -84,7 +84,7 @@ a {
     color: #E5E7EB;
 }
 
-#signup {
+.signup {
     background-color: #3882F6;
     color: #ffff;
     font-weight: bold;
@@ -179,4 +179,47 @@ a {
     color: rgb(117, 116, 116);
 }
 
-/*SIGN UP-FOOTER SECTION*/
+/*SIGN UP BANNER SECTION*/
+
+.signup-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.signup-banner-subcontainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 60px;
+    width: 700px;
+    
+}
+
+.banner-text {
+    color: #fff;
+    gap: 30px;
+
+
+}
+
+.main-call {
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.secondary-call {
+    font-size: 13px;
+    color: #E5E7EB;
+}
+/*FOOTER SECTION*/
+
+.footer-container {
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 13px;
+}

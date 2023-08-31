@@ -2,7 +2,7 @@
 
 Project of a landing page in HTML and CSS as part of The Odin Project course for Web Development.
 
-Images credits:
+## Images credits:
 
 Unplash - Photo by <a href="https://unsplash.com/pt-br/@sxoxm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sven Mieke</a> on <a href="https://unsplash.com/pt-br/fotografias/optBC2FxCfc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
