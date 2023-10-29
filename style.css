@@ -94,6 +94,14 @@ a {
     font-size: 18px;
     border-radius: 10px;
 }
+
+.signup:hover,
+#login:hover {
+    background-color: #055eee;
+    color: #e9e8e8;
+    cursor: pointer;
+
+}
 /*middle gallery section*/
 .middle-gallery-container {
     display: flex;
@@ -139,13 +147,23 @@ a {
 .small-images {
     width: 100%;
     border-radius: 10px;
-    border: 3px solid #3882F6;
+    box-shadow: 10px 5px 5px #b5b5b5;
+}
+
+.small-images:hover{
+    filter: brightness(65%);
+    cursor: pointer;
 }
 
 .text-box {
     display: flex;
     justify-content: center;
     color: #1F2937;
+}
+.text-box:hover{
+    text-decoration: underline;
+    color: #717070;
+    cursor: pointer;
 }
 
 /*Quote section*/
